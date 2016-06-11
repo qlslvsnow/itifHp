@@ -20,9 +20,9 @@ body {
     font-size: 80%;
 }
 #page-top a {
-    background: #A09A9A;
+    background: #e7e7e7;;
     text-decoration: none;
-    color: #fff;
+    /*color: #fff;*/
     width: 100px;
     padding: 22px 0;
     text-align: center;
@@ -63,6 +63,11 @@ a {
     margin: 20px 0;
 }
 
+
+.container-footer-distance {
+    margin-bottom: 80px;
+}
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding-top: 25px;
@@ -70,7 +75,14 @@ a {
         padding-left: 25px;
         padding-right:  25px;
     }
+    /* Carousel base class */
+    .carousel {
+      height: 500px;
+      margin-bottom: 60px;
+    }
 }
+
+
 
 @media (max-width: 767px) {
 
@@ -101,6 +113,33 @@ a {
 
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color:transparent;
+    }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+    /* Carousel base class */
+    .carousel {
+      height: 280px;
+      margin-bottom: 20px;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+    }    /* Declare heights because of positioning of img element */
+    .carousel .item {
+      height: 280px;
+      background-color: #777;
+    }
+    .carousel-inner > .item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 280px;
+    }
+
+    .carousel-caption > h1{
+        font-size: 16px;
     }
 
 }
