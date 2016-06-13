@@ -63,9 +63,24 @@ a {
     margin: 20px 0;
 }
 
+<<<<<<< HEAD
 
 .container-footer-distance {
     margin-bottom: 80px;
+=======
+.title-font {
+    font-size: 12px;
+}
+
+.hvr-underline-from-left:before {
+    background: #C1B9B9;
+    height: 2px;
+}
+
+.hvr-overline-from-left:before {
+    background: #C1B9B9;
+    height: 2px;
+>>>>>>> origin/master
 }
 
 @media (min-width: 768px) {
