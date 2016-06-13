@@ -17,6 +17,7 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/Hover.css" rel="stylesheet">
     <!-- custom made -->
     <link href="css/customMade.css" rel="stylesheet">
 
@@ -34,7 +35,7 @@
 
 </head>
 
-  <body style="position:static;">
+  <body>
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
@@ -53,27 +54,34 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="company.html">会社情報</a></li>
-                <li><a href="business.html">事業内容</a></li>
-                <li><a href="recruit.html">採用情報</a></li>
-                <li class="active"><a href="contact.html">お問い合せ</a></li>
+                <li class="hvr-overline-from-left"><a href="company.html">会社情報</a></li>
+                <li class="hvr-overline-from-left"><a href="business.html">事業内容</a></li>
+                <li class="hvr-overline-from-left"><a href="recruit.html">採用情報</a></li>
+                <li class="dropdown">
+                  <a href="contact.html" class="dropdown-toggle hvr-overline-from-left" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">お問い合せ<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">お問合せ先</a></li>
+                    <li><a href="#access">アクセス</a></li>
+<!--                     <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li> -->
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
-<<<<<<< HEAD
-      <hr class="featurette-divider">
+
       <div class="container container-footer-distance">
-=======
 
       <hr class="featurette-title">
       <div class="container title-font">
-            <a href="/index.html"> <p class="glyphicon glyphicon-home" aria-hidden="true"></p> ホーム </a>&gt; <a href="/contact.html"> お問い合せ </a>&gt; お問合せ連絡先
+            <a href="/index.html"> <p class="glyphicon glyphicon-home glyphicon-home-size" aria-hidden="true"></p> ホーム </a>&gt; <a href="/contact.html"> お問い合せ </a>&gt; お問合せ連絡先
       </div>
 
       <div class="container">
->>>>>>> origin/master
       <h2>お問合せ連絡先</h2>
        <table class="table table-hover">
         <tbody>
@@ -101,6 +109,18 @@
       </table>
       </div>
 
+      <hr class="featurette-map">
+        <div id="access"  class="container">
+        <h2>アクセス</h2>
+         <table class="table table-hover">
+          <tbody>
+              <tr >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.041736207563!2d139.59653557361167!3d35.45376115833933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185bed3f59c8fb%3A0x8f083256ba92c12f!2sYokohama+Business+Park!5e0!3m2!1szh-CN!2sjp!4v1465825827871" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </tr>
+          </tbody>
+        </table>
+        </div>
+
       <!-- <footer class="navbar navbar-default navbar-fixed-bottom"> -->
       <footer class="footer">
           <div class="container">
@@ -121,6 +141,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
+    <script src="js/customItif.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
