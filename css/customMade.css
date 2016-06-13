@@ -84,9 +84,14 @@ a {
 .h2, h2 {
     font-size: 25px;
 }
+
 .featurette-map {
     margin-left: 20px;
     margin-bottom: 0px;
+}
+
+#success_message{ 
+    display: none;
 }
 
 @media (min-width: 768px) {
