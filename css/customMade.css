@@ -67,6 +67,16 @@ a {
     font-size: 12px;
 }
 
+.hvr-underline-from-left:before {
+    background: #C1B9B9;
+    height: 2px;
+}
+
+.hvr-overline-from-left:before {
+    background: #C1B9B9;
+    height: 2px;
+}
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding-top: 25px;
