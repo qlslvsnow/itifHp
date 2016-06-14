@@ -94,6 +94,12 @@ a {
     display: none;
 }
 
+.contact-map{
+    width: 85%;
+    height: 450px;
+}
+
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding-top: 25px;
@@ -173,6 +179,10 @@ a {
         font-size:10px;
     }
 
+    .contact-map{
+        width: 95%;
+        height: 250px;
+    }
 
 }
 
