@@ -59,7 +59,8 @@
               <li class="hvr-overline-from-left"><a href="business.html">事業内容</a></li>
               <li class="hvr-overline-from-left"><a href="recruit.html">採用情報</a></li>
               <li class="dropdown">
-                <a href="contact.html" class="dropdown-toggle hvr-overline-from-left" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">お問い合せ<span class="caret"></span></a>
+                <a href="contact.html" class="dropdown-toggle hvr-overline-from-left" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">お問い合せ
+                <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">お問合せ先</a></li>
                   <li><a href="#access">アクセス</a></li>
@@ -89,7 +90,7 @@
         <tbody>
             <tr >
               <td class="col-md-2">会社名</td>
-              <td class="col-md-10">GITIF (global IT innvation fatory)<a href="#"></a></td>
+              <td class="col-md-10">ITIF (IT innvation fatory)<a href="#"></a></td>
             </tr>
             <tr>
                <td class="col-md-2"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>　TEL</td>
@@ -136,18 +137,18 @@
           <div class="col-md-4 inputGroupContainer">
           <div class="input-group">
           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+          <input  name="first_name" placeholder="例(鈴木　小田)" class="form-control"  type="text">
             </div>
           </div>
         </div>
 
         <!-- Text input-->
         <div class="form-group">
-          <label class="col-md-4 control-label">お名前(カナ)</label> 
+          <label class="col-md-4 control-label">フリガナ</label> 
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+          <input name="last_name" placeholder="例(スズキ オダ)" class="form-control"  type="text">
             </div>
           </div>
         </div>
@@ -158,10 +159,10 @@
             <div class="col-md-4">
                 <div class="radio">
                     <label>
-                        <input type="radio" name="hosting" value="yes" /> 男 
+                        <input type="radio" name="sex" value="yes" /> 男 
                     </label>
                     <label>
-                        <input type="radio" name="hosting" value="no" /> 女
+                        <input type="radio" name="sex" value="no" /> 女
                     </label>
                 </div>
             </div>
@@ -173,7 +174,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+            <input name="email" placeholder="例(support@itif.co.jp)" class="form-control"  type="text">
             </div>
           </div>
         </div>
@@ -184,7 +185,19 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-          <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+          <input name="phone" placeholder="例(070-2187-9721)" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">郵便番号</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <!-- <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i><font-family: 'Glyphicons Halflings';/span> -->
+                <span class="input-group-addon"><i class="glyphicon">〒</i></span>
+          <input name="address" placeholder="例(231-0011)" class="form-control" type="text">
             </div>
           </div>
         </div>
@@ -195,7 +208,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-          <input name="address" placeholder="Address" class="form-control" type="text">
+          <input name="address" placeholder="東京都品川駅付近" class="form-control" type="text">
             </div>
           </div>
         </div>
@@ -293,7 +306,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                  <textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+                  <textarea class="form-control" name="comment" placeholder="問い合わせ内容を入力してください"></textarea>
           </div>
           </div>
         </div>

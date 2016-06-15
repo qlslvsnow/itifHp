@@ -99,6 +99,24 @@ a {
     height: 450px;
 }
 
+.carousel-caption {
+    /*right: 10%;*/
+    left: 20%;
+    text-align: left;
+    color: #ccdbe8;
+}
+
+#userMenu i {
+    line-height: 20px;
+    display: block;
+    float: right;
+    margin-left: 4px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    top: 58%;
+}
+
 
 @media (min-width: 768px) {
     .navbar-nav>li>a {
@@ -113,8 +131,6 @@ a {
       margin-bottom: 60px;
     }
 }
-
-
 
 @media (max-width: 767px) {
 
