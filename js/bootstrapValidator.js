@@ -3166,6 +3166,9 @@
 
             var country = (options.country || 'US').toUpperCase();
             switch (country) {
+                case 'JP' :
+                    value = value.replace(/\D/g, '');
+                    return (/^(\d{3})[\)\-\.]?(\d{4})[\-\.]?(\d{4})$/).test(value) && (value.length == 11);
                 case 'US':
                 default:
                     // Make sure US phone numbers have 10 digits
