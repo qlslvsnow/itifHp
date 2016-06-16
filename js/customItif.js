@@ -134,7 +134,7 @@ $(document).ready(function() {
                     phone: {
                         country: 'JP',
                         // message: 'Please supply a vaild phone number with area code'
-                        message: '電話番号を入力してください'
+                        message: '電話番号の記述に誤りがあります'
                     }
                 }
             },
