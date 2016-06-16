@@ -83,6 +83,7 @@ $(document).ready(function() {
                 validators: {
                         stringLength: {
                         min: 2,
+                        message: 'ご担当者様氏名の記述に誤りがあります'
                     },
                         notEmpty: {
                         // message: 'Please supply your first name'
@@ -94,6 +95,7 @@ $(document).ready(function() {
                 validators: {
                      stringLength: {
                         min: 2,
+                        message: 'フリガナの記述に誤りがあります'
                     },
                     notEmpty: {
                         // message: 'Please supply your last name'
@@ -138,6 +140,32 @@ $(document).ready(function() {
                     }
                 }
             },
+            postal: {
+                validators: {
+                    stringLength: {
+                        min: 7,
+
+                    },
+                    notEmpty: {
+                        message: '郵便番号を入力してください'
+                        // message: 'Please supply your street address'
+                    }
+                }
+            },
+
+            zip: {
+                validators: {
+                    notEmpty: {
+                        message: '郵便番号を入力してください'
+                    },
+                    zipCode: {
+                        // country: 'US',
+                        country: 'JP',
+                        message: '郵便番号の記述に誤りがあります'
+                    }
+                }
+            },
+
             address: {
                 validators: {
                     // stringLength: {
@@ -166,17 +194,7 @@ $(document).ready(function() {
             //         }
             //     }
             // },
-            // zip: {
-            //     validators: {
-            //         notEmpty: {
-            //             message: 'Please supply your zip code'
-            //         },
-            //         zipCode: {
-            //             country: 'US',
-            //             message: 'Please supply a vaild zip code'
-            //         }
-            //     }
-            // },
+
             comment: {
                 validators: {
                       // stringLength: {

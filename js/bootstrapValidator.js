@@ -4908,6 +4908,7 @@
                 return true;
             }
 
+            value = value.replace(/\D/g, '');
             var country = (options.country || 'US').toUpperCase();
             switch (country) {
                 case 'CA': return /(?:A|B|C|E|G|J|K|L|M|N|P|R|S|T|V|X|Y){1}[0-9]{1}(?:A|B|C|E|G|J|K|L|M|N|P|R|S|T|V|X|Y){1}\s?[0-9]{1}(?:A|B|C|E|G|J|K|L|M|N|P|R|S|T|V|X|Y){1}[0-9]{1}/i.test(value);
@@ -4921,6 +4922,7 @@
                 case 'NL': return /^[1-9][0-9]{3} ?(?!sa|sd|ss)[a-z]{2}$/i.test(value);
 
                 case 'SE': return /^(S-)?\d{3}\s?\d{2}$/i.test(value);
+                case 'JP': return /^[0-9]{7}$/i.test(value);
                 case 'US':
                 default: return /^\d{4,5}([\-]\d{4})?$/.test(value);
             }
