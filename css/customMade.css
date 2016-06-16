@@ -117,6 +117,25 @@ a {
     top: 58%;
 }
 
+.postal-code {
+    font-weight : 900;
+}
+
+.container-space-between{
+    margin-top: 40px;
+}
+
+.title-space-between{
+    margin-top: 80px;
+}
+
+.form-control {
+    height: 35px;
+}
+/*
+legend {
+    margin-top: 90px;
+}*/
 
 @media (min-width: 768px) {
     .navbar-nav>li>a {
