@@ -7,15 +7,15 @@ $(function(){
     return str.substr(0, str.length - 5);
   }
 
-  var url = window.location.pathname;  
+  var url = window.location.pathname;
   var activePage = stripTrailingSlash(url);
 
-  $('.nav li a').each(function(){  
+  $('.nav li a').each(function(){
     var currentPage = stripTrailingSlash($(this).attr('href'));
 
     if (activePage == currentPage) {
-      $(this).parent().addClass('active'); 
-    } 
+      $(this).parent().addClass('active');
+    }
   });
 });
 
@@ -79,7 +79,7 @@ $(document).ready(function() {
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            first_name: {
+            name_kanji: {
                 validators: {
                         stringLength: {
                         min: 2,
@@ -90,7 +90,7 @@ $(document).ready(function() {
                     }
                 }
             },
-            last_name: {
+            name_hurigana: {
                 validators: {
                      stringLength: {
                         min: 2,
