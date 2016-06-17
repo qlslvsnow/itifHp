@@ -159,6 +159,10 @@ legend {
     position: relative;
 }
 
+.dropdown-menu>li>a {
+    padding: 8px 15px;
+}
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding-top: 28px;
