@@ -64,7 +64,7 @@ $(document).on('click','#dropdown-menu',function(e) {
             $("html,body").animate({scrollTop: ss - 64},"slow");
         } else if (href == "#a03") {
             var ss = $("#contact-input-form").offset().top;
-            $("html,body").animate({scrollTop: ss - 64},"slow");
+            $("html,body").animate({scrollTop: ss - 80},"slow");
         }
     }
 });
