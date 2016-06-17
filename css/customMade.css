@@ -1,6 +1,6 @@
 body {
     font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-    position: relative;
+/*    position: relative;*/
 }
 
 .footer {
@@ -151,10 +151,18 @@ legend {
     padding-left: 40px;
 }
 
+.bussiness-body-pc {
+    position: relative;
+}
+
+.index-body-pc {
+    position: relative;
+}
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
-        padding-top: 25px;
-        padding-bottom: 20px;
+        padding-top: 28px;
+        padding-bottom: 26px;
         padding-left: 25px;
         padding-right:  25px;
     }
@@ -166,13 +174,13 @@ legend {
 }
 
 @media (max-width: 767px) {
-
     .h2, h2 {
         font-size: 25px;
     }
 
     body {
         font-size: 12px;
+        position: absolute;
     }
 
     #page-top a {
