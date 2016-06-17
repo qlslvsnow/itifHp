@@ -1,15 +1,15 @@
 body {
     font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-/*    position: relative;*/
+    /*    position: relative;*/
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #FFFFFF;
-  border-top: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #eee;
 }
 
 /* ページトップ */
@@ -20,6 +20,7 @@ body {
     font-size: 80%;
     z-index: 1000;
 }
+
 #page-top a {
     background: #e7e7e7;;
     text-decoration: none;
@@ -30,6 +31,7 @@ body {
     display: block;
     border-radius: 10px;
 }
+
 #page-top a:hover {
     text-decoration: none;
     background: #999;
@@ -39,7 +41,7 @@ a {
     color: #4e6591;
 }
 
-.nav>li>a {
+.nav > li > a {
     font-size: 15px;
 }
 
@@ -78,7 +80,7 @@ a {
 }
 
 .hvr-overline-from-left:before {
-    background: #C1B9B9;
+    background: #2098d1;
     height: 2px;
 }
 
@@ -88,14 +90,14 @@ a {
 
 .featurette-map {
     margin-left: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-#success_message{ 
+#success_message {
     display: none;
 }
 
-.contact-map{
+.contact-map {
     width: 85%;
     height: 450px;
 }
@@ -119,24 +121,20 @@ a {
 }
 
 .postal-code {
-    font-weight : 900;
+    font-weight: 900;
 }
 
-.container-space-between{
+.container-space-between {
     margin-top: 40px;
 }
 
-.title-space-between{
+.title-space-between {
     margin-top: 80px;
 }
 
 .form-control {
     height: 35px;
 }
-/*
-legend {
-    margin-top: 90px;
-}*/
 
 .policy-content-align-left {
     text-align: right;
@@ -159,21 +157,35 @@ legend {
     position: relative;
 }
 
-.dropdown-menu>li>a {
+.policy-body-pc {
+    position: relative;
+}
+
+.recruit-body-pc {
+    position: relative;
+}
+
+.company-body-pc {
+    position: relative;
+}
+
+.dropdown-menu > li > a {
     padding: 8px 15px;
 }
 
+.center-block {
+    margin-left: inherit;
+}
+
 @media (min-width: 768px) {
-    .navbar-nav>li>a {
-        padding-top: 28px;
-        padding-bottom: 26px;
-        padding-left: 25px;
-        padding-right:  25px;
+    .navbar-nav > li > a {
+        padding: 28px 25px 26px;
     }
+
     /* Carousel base class */
     .carousel {
-      height: 500px;
-      margin-bottom: 60px;
+        height: 500px;
+        margin-bottom: 60px;
     }
 }
 
@@ -192,12 +204,8 @@ legend {
         padding: 15px 0;
     }
 
-/*    .nav>li {
-        padding: 0px 20px;
-    }*/
-
     .glyphicon {
-        font-size:18px;
+        font-size: 18px;
     }
 
     .navbar-toggle {
@@ -205,42 +213,49 @@ legend {
     }
 
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-        background-color:transparent;
+        background-color: transparent;
     }
 
     /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
     /* Carousel base class */
     .carousel {
-      height: 280px;
-      margin-bottom: 20px;
+        height: 280px;
+        margin-bottom: 20px;
     }
+
     /* Since positioning the image, we need to help out the caption */
     .carousel-caption {
-      z-index: 10;
-    }    /* Declare heights because of positioning of img element */
+        z-index: 10;
+    }
+
+    /* Declare heights because of positioning of img element */
     .carousel .item {
-      height: 280px;
-      background-color: #777;
+        height: 280px;
+        background-color: #777;
     }
+
     .carousel-inner > .item > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 280px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 280px;
     }
-    .carousel-caption > h1{
+
+    .carousel-caption > h1 {
         font-size: 16px;
     }
+
     .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
         margin-top: 18px;
     }
-    .glyphicon-home-size{
-        font-size:10px;
+
+    .glyphicon-home-size {
+        font-size: 10px;
     }
 
-    .contact-map{
+    .contact-map {
         width: 95%;
         height: 250px;
     }
