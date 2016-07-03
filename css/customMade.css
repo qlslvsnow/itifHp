@@ -178,6 +178,10 @@ a {
     margin-left: inherit;
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #1b96fd;
+}
+
 @media (min-width: 768px) {
     .navbar-nav > li > a {
         padding: 28px 25px 26px;
