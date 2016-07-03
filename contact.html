@@ -18,7 +18,7 @@
 
 </head>
 
-<body style="position: relative">
+<body style="position: relative; padding-top: 76px" data-spy="scroll" data-target="#myScrollspy">
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -70,255 +70,209 @@
         </div>
     </div>
 </nav>
-
-<div class="container title-space-between">
+<!--<div class="container ">-->
     <!--<a href="/index.html"><p class="glyphicon glyphicon-home glyphicon-home-size" aria-hidden="true"></p> ホーム </a>&gt;-->
     <!--<a href="/contact.html"> お問い合せ </a>&gt; お問合せ連絡先-->
-</div>
+<!--</div>-->
 
-
-<div id="contact-info" class="container">
+<div class="container">
     <div class="row">
-        <div class="col-md-10">
-            <h2>お問合せ連絡先</h2>
-            <table class="table table-hover">
-                <tbody>
-                <tr>
-                    <td class="col-md-2">会社名</td>
-                    <td class="col-md-10">ITIF (IT innvation fatory)<a
-                            href="#"></a></td>
-                </tr>
-                <tr>
-                    <td class="col-md-2"><span
-                            class="glyphicon glyphicon-phone-alt"
-                            aria-hidden="true"></span>　TEL
-                    </td>
-                    <td class="col-md-10">xxx-xxxx-xxxx</td>
-                </tr>
-                <tr>
-                    <td class="col-md-2"><span class="glyphicon glyphicon-print"
-                                               aria-hidden="true"></span>　FAX
-                    </td>
-                    <td class="col-md-10">xxx-xxxx-xxxx</td>
-                </tr>
-                <tr>
-                    <td class="col-md-2"><span
-                            class="glyphicon glyphicon-envelope"
-                            aria-hidden="true"></span>　MAIL
-                    </td>
-                    <td class="col-md-10"><a
-                            href="mailto:#">xxxx@gitif.co.jp</a></td>
-                </tr>
-                <tr>
-                    <td class="col-md-2">営業時間</td>
-                    <td class="col-md-10">９：３０～１８：３０　休日は土日・祝日となります。</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-<!--<hr class="featurette-map">-->
-<div id="contact-gmap" class="container container-space-between">
-    <div class="row">
-        <div class="col-md-10">
-            <legend><h2>アクセス</h2></legend>
-            <table class="table table-hover">
-                <tbody>
-                <tr>
-                    <iframe class="contact-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.041736207563!2d139.59653557361167!3d35.45376115833933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185bed3f59c8fb%3A0x8f083256ba92c12f!2sYokohama+Business+Park!5e0!3m2!1szh-CN!2sjp!4v1465825827871"
-                            frameborder="0" style="border:0"
-                            allowfullscreen></iframe>
-                </tr>
-                <tr>
-                    <td>住所</td>
-                    <td>
-                        <p>〒150-0002　東京都渋谷区渋谷ｘｘｘx-x-x</p>
-                        <p>TEL　xx-xxxx-xxxx（代表)</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>交通</td>
-                    <td>
-                        <p>JR渋谷駅 東口　徒歩xx分</p>
-                        <p>地下鉄表参道駅 B1出口　徒歩xx分</p>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
-<div id="contact-input-form"
-     class="container container-space-between container-footer-distance">
-    <div class="row">
-        <div class="col-md-10">
-            <form class="form-horizontal" action="" method="post"
-                  id="contact_form">
-                <fieldset>
-                    <input type="hidden" name="region" value="japan">
-                    <legend><h2>お問合せ入力</h2></legend>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">お名前※</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-user"></i></span>
-                                <input name="name_kanji" placeholder="例(鈴木　小田)"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">フリガナ</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-user"></i></span>
-                                <input name="name_hurigana"
-                                       placeholder="例(スズキ オダ)"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--<div class="form-group">-->
-                    <!--<label class="col-md-4 control-label">性別※</label>-->
-                    <!--<div class="col-md-4">-->
-                    <!--<div class="radio">-->
-                    <!--<label>-->
-                    <!--<input type="radio" name="sex"-->
-                    <!--value="male"/> 男-->
-                    <!--</label>-->
-                    <!--<label>-->
-                    <!--<input type="radio" name="sex"-->
-                    <!--value="female"/> 女-->
-                    <!--</label>-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--</div>-->
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">メールアドレス※</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-envelope"></i></span>
-                                <input name="email"
-                                       placeholder="例(support@itif.co.jp)"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">携帯</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-earphone"></i></span>
-                                <input name="phone"
-                                       placeholder="例(070-2187-9721)"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">郵便番号</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon postal-code">〒</i></span>
-                                <input name="zip" placeholder="例(231-0011)"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">アドレス</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-home"></i></span>
-                                <input name="address" placeholder="東京都品川駅付近"
-                                       class="form-control" type="text">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Select Basic -->
-                    <!--     <div class="form-group">
-                          <label class="col-md-4 control-label">State</label>
-                            <div class="col-md-4 selectContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-                            <select name="state" class="form-control selectpicker" >
-                              <option value=" " >Please select your state</option>
-                              <option>Alabama</option>
-                              <option>Alaska</option>
-                            </select>
-                          </div>
-                        </div>
-                        </div> -->
-
-                    <!-- Text input-->
-                    <!--         <div class="form-group">
-                              <label class="col-md-4 control-label">Website or domain name</label>
-                               <div class="col-md-4 inputGroupContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-                              <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+        <nav class="col-sm-3" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="" id="sidebar">
+                <li class="active"><a href="#article1">お問合せ先</a></li>
+                <li><a href="#article2">アクセスマップ</a></li>
+                <li><a href="#article3">お問合せフォーム</a></li>
+            </ul>
+        </nav>
+        <div class="col-sm-9">
+            <div id="article1">
+                <div id="contact-info">
+                    <h2>お問合せ連絡先</h2>
+                    <table class="table table-hover">
+                        <tbody>
+                        <tr>
+                            <td class="col-md-2">会社名</td>
+                            <td class="col-md-10">ITIF (IT innvation fatory)<a
+                                    href="#"></a></td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2"><span
+                                    class="glyphicon glyphicon-phone-alt"
+                                    aria-hidden="true"></span>　TEL
+                            </td>
+                            <td class="col-md-10">xxx-xxxx-xxxx</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2"><span class="glyphicon glyphicon-print"
+                                                       aria-hidden="true"></span>　FAX
+                            </td>
+                            <td class="col-md-10">xxx-xxxx-xxxx</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2"><span
+                                    class="glyphicon glyphicon-envelope"
+                                    aria-hidden="true"></span>　MAIL
+                            </td>
+                            <td class="col-md-10"><a
+                                    href="mailto:#">xxxx@gitif.co.jp</a></td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2">営業時間</td>
+                            <td class="col-md-10">９：３０～１８：３０　休日は土日・祝日となります。</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="article2">
+                <div id="contact-gmap" class="container-space-between">
+                    <legend><h2>アクセス</h2></legend>
+                    <table class="table table-hover">
+                        <tbody>
+                        <tr>
+                            <iframe class="contact-map"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.041736207563!2d139.59653557361167!3d35.45376115833933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185bed3f59c8fb%3A0x8f083256ba92c12f!2sYokohama+Business+Park!5e0!3m2!1szh-CN!2sjp!4v1465825827871"
+                                    frameborder="0" style="border:0"
+                                    allowfullscreen></iframe>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td>
+                                <p>〒150-0002　東京都渋谷区渋谷ｘｘｘx-x-x</p>
+                                <p>TEL　xx-xxxx-xxxx（代表)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>交通</td>
+                            <td>
+                                <p>JR渋谷駅 東口　徒歩xx分</p>
+                                <p>地下鉄表参道駅 B1出口　徒歩xx分</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="article3">
+                <div id="contact-input-form"
+                     class="container-space-between container-footer-distance">
+                    <form class="form-horizontal" action="" method="post"
+                          id="contact_form">
+                        <fieldset>
+                            <input type="hidden" name="region" value="japan">
+                            <legend><h2>お問合せ入力</h2></legend>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">お名前※</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-user"></i></span>
+                                        <input name="name_kanji" placeholder="例(鈴木　小田)"
+                                               class="form-control" type="text">
+                                    </div>
                                 </div>
-                              </div>
-                            </div> -->
-
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">内容※</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                        <span class="input-group-addon"><i
-                                class="glyphicon glyphicon-pencil"></i></span>
-                        <textarea class="form-control" name="comment" rows="5"
-                                  placeholder="問い合わせ内容を入力してください"></textarea>
                             </div>
-                        </div>
-                    </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">フリガナ</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-user"></i></span>
+                                        <input name="name_hurigana"
+                                               placeholder="例(スズキ オダ)"
+                                               class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">メールアドレス※</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email"
+                                               placeholder="例(support@itif.co.jp)"
+                                               class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">携帯</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-earphone"></i></span>
+                                        <input name="phone"
+                                               placeholder="例(070-2187-9721)"
+                                               class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">郵便番号</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon postal-code">〒</i></span>
+                                        <input name="zip" placeholder="例(231-0011)"
+                                               class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Success message -->
-                    <div class="alert alert-success" role="alert"
-                         id="success_message">
-                        Success <i
-                            class="glyphicon glyphicon-thumbs-up"></i> Thanks
-                        for
-                        contacting us, we will get back to you
-                        shortly.
-                    </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">アドレス</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-home"></i></span>
+                                        <input name="address" placeholder="東京都品川駅付近"
+                                               class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">内容※</label>
+                                <div class="col-md-4 inputGroupContainer">
+                                    <div class="input-group">
+                            <span class="input-group-addon"><i
+                                    class="glyphicon glyphicon-pencil"></i></span>
+                            <textarea class="form-control" name="comment" rows="5"
+                                      placeholder="問い合わせ内容を入力してください"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Success message -->
+                            <div class="alert alert-success" role="alert"
+                                 id="success_message">
+                                Success <i
+                                    class="glyphicon glyphicon-thumbs-up"></i> Thanks
+                                for
+                                contacting us, we will get back to you
+                                shortly.
+                            </div>
 
-                    <div class="form-group text-center">
-                        <label>
-                            <input type="checkbox"><a href="policy.html">
-                            プライバシーポリシー</a>に同意のうえ問い合わせする
-                        </label>
-                    </div>
-                    <!-- Button -->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label"></label>
-                        <div class="col-md-4">
-                            <button type="submit" class="btn btn-warning">
-                                送信する <span
-                                    class="glyphicon glyphicon-send"></span>
-                            </button>
-                        </div>
-                    </div>
+                            <div class="form-group text-center">
+                                <label>
+                                    <input type="checkbox"><a href="policy.html">
+                                    プライバシーポリシー</a>に同意のうえ問い合わせする
+                                </label>
+                            </div>
+                            <!-- Button -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label"></label>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-warning">
+                                        送信する <span
+                                            class="glyphicon glyphicon-send"></span>
+                                    </button>
+                                </div>
+                            </div>
 
-                </fieldset>
-            </form>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>
