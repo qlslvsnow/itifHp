@@ -146,6 +146,10 @@ a {
     font-weight: 400;
 }
 
+.maps iframe{
+    pointer-events: none;
+}
+
 .policy-content {
     padding-left: 40px;
 }
